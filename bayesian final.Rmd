@@ -1,0 +1,34 @@
+---
+title: "Bayesian Final"
+author: "Jessica Spencer"
+date: "5/14/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##The Dataset
+
+As soon as I saw the Kaggle "Married at First Sight" dataset, I knew I needed to analyze it. Married at First Sight is a reality show, where "the cart comes way before the horse".  It's a dumb social experiment where people agree to get married to a complete stranger, who they are matched to based on some quizzes, and the opinions and 'expertise' of a spiritualist, sociologist, and relationship coach. The show documents their various dates and whatnot, and then ends a few weeks later, where they decide to either split up or stay together. 71% stay together at the end of the show, and of the 10 seasons, 26% of these couples have remained married. 
+
+I'm wondering if there are any common characteristics in the cohorts of those who decide to split up at the end of the show, get married, stay married or get divorced. Because why not. 
+
+(sorry not sorry about this dataset)
+
+##Load the dataset
+```{r}
+maf = read.csv("mafs.csv")
+head(maf)
+```
+
+
+
+
+
+
+
+
+
+
